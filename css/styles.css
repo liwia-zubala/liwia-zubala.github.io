@@ -137,6 +137,8 @@ body {
 }
 header .column_two_two_third{float:left;}
 header .column_two_one_third{float:right;}
+.contact_details {float:right; width:72%;}
+.contact_icons {float: left; width:25%;}
 
 .column_three_one_third {
     width: 33%;
@@ -150,7 +152,7 @@ header .column_two_one_third{float:right;}
 Header
 ------------------------------------------------*/
 header{
-    padding:50px 0;
+    margin:5% 0;
     position: relative;
 }
 nav {
@@ -195,15 +197,14 @@ img {
     float:right;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 }
-#few_words {
-    text-align: justify;
-    margin: 5% 0;
-}
-section, #few_words{
+section{
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
     padding:5%;
     margin-bottom: 5%;
     background:#fff;
+}
+section#about {
+    margin: 3% 0 !important;
 }
 /*---------------------------------------------- 
 Sections
@@ -277,13 +278,13 @@ Media
 #main_wrapper {
 width: 100%;
 margin: 0 auto;
-padding: 50 4% 50px;}
+padding: 50px 4% 50px;}
 section, header {padding:0 !important;}
 .title{padding-bottom: 1%;}
 nav,.level span, .level {display:none;}
 #skills p{float:left;}
 header, section{margin-bottom: 2%;}
-#few_words{margin:0;}
+header .column_two_two_third {margin:0;}
 .cv_item{padding-bottom: 2%;}
 .cv_item:last-child{padding-bottom: 0%;}
 .icon{border-right: 0 !important; left:0%;}
