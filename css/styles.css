@@ -100,7 +100,6 @@ h4 {font-size: 1.3em;padding-bottom:10px;}
 h5 {font-size: 1em;color: #C55A5A;font-weight: 300;padding-bottom:10px;}
 p {font-size: 1em;color:#777;}
 p.fade {font-size: 0.9em;color:#aaa;}
-
 .icon{
     color: #fff;
     font-size: 2em !important;
@@ -112,7 +111,6 @@ p.fade {font-size: 0.9em;color:#aaa;}
     border-right: 50px solid #C55A5A;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 } 
-
 body {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     background-color: #fff; 
@@ -137,6 +135,9 @@ body {
     display: inline-block;
     float:right;
 }
+header .column_two_two_third{float:left;}
+header .column_two_one_third{float:right;}
+
 .column_three_one_third {
     width: 33%;
     float: left;
@@ -145,17 +146,13 @@ body {
 .column_three_one_third:last-child {
     padding-right: 0;
 }
-
-
 /*---------------------------------------------- 
 Header
 ------------------------------------------------*/
-
 header{
     padding:50px 0;
     position: relative;
 }
-
 nav {
     text-align: center;
     position:fixed;
@@ -171,15 +168,12 @@ nav {
     -webkit-transform: translate3d(0, 0, 0);*/
     padding:10px 0;
 }
-
 nav.sticky {
     top:0;
 }
-
 nav li {
     display: inline-block;
 }
-
 nav li a {
     display:block;
     padding:10px;
@@ -188,7 +182,6 @@ nav li a {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
-
 nav li a:hover, nav li a:focus {
     color: #fff;
     background-color: #C55A5A;
@@ -196,19 +189,16 @@ nav li a:hover, nav li a:focus {
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
     text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 }
-
 img {
     display:inline-block;
     width:100%;
     float:right;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 }
-
 #few_words {
     text-align: justify;
     margin: 5% 0;
 }
-
 section, #few_words{
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
     padding:5%;
@@ -233,7 +223,6 @@ Sections
 .title{
     padding-bottom: 3%;
 }
-
 #about {color:#666;}
 #about ul{font-size:1.2em;line-height:1.6em;}
 
@@ -243,7 +232,6 @@ a:hover {color:#22A6B6;}
 #experience ul, #hobbies ul{
     list-style: square inside; 
 }
-
 .level{
     text-indent: -9999px;
     background-color: #e2e2e2;
@@ -254,7 +242,6 @@ a:hover {color:#22A6B6;}
     border-radius: 5px;
     overflow:hidden;
 }
-
 .level span {
     background-color: #22A6B6;
     display: block;
@@ -267,7 +254,6 @@ a:hover {color:#22A6B6;}
 .w_70{width:70%;}
 .w_75{width:75%;}
 .w_80{width:80%;}
-
 .boxed_list li {
     padding: 5px 7px;
     color: #fff;
@@ -276,7 +262,6 @@ a:hover {color:#22A6B6;}
     float: left;
     border-radius: 2px;
 }
-
 /*---------------------------------------------- 
 Media
 ------------------------------------------------*/
